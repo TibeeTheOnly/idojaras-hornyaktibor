@@ -12,4 +12,4 @@ class NapiIdojaras {
     }
 }
 
-module.exports = NapiIdojaras;
+export default NapiIdojaras;
