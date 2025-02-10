@@ -17,7 +17,7 @@ async function main() {
         return current.maxHomerseklet > max.maxHomerseklet ? current : max;
     });
 
-    console.log(`A legmagasabb hőmérséklet ${legmagasabbHomersekletuNap.toString()}`);
+    console.log(`A legmagasabb hőmérséklet - ${legmagasabbHomersekletuNap.toString()}`);
 }
 
 main();

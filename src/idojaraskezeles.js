@@ -6,7 +6,8 @@ import NapiIdojaras from './NapiIdojaras.js';
 async function maiidojaras() {
     const rl = readline.createInterface({
         input: process.stdin,
-        output: process.stdout
+        output: process.stdout,
+        terminal: false //FONTOS!! 
     });
 
     const maxHomerseklet = await rl.question('Add meg a mai napi max hőmérsékletet: ');

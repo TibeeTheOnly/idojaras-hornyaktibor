@@ -1,5 +1,7 @@
 class NapiIdojaras {
     constructor(nap, maxHomerseklet, minHomerseklet, idojaras) {
+        
+
         this.nap = nap;
         this.maxHomerseklet = maxHomerseklet;
         this.minHomerseklet = minHomerseklet;
