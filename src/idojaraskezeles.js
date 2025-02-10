@@ -2,7 +2,6 @@ import readline from 'readline/promises';
 import fs from 'fs/promises';
 import NapiIdojaras from './NapiIdojaras.js';
 
-
 async function maiidojaras() {
     const rl = readline.createInterface({
         input: process.stdin,
@@ -10,8 +9,8 @@ async function maiidojaras() {
         terminal: false //FONTOS!! 
     });
 
-    const maxHomerseklet = await rl.question('Add meg a mai napi max hőmérsékletet: ');
-    const minHomerseklet = await rl.question('Add meg a mai napi min hőmérsékletet: ');
+    const maxHomerseklet = parseFloat(await rl.question('Add meg a mai napi max hőmérsékletet: '));
+    const minHomerseklet = parseFloat(await rl.question('Add meg a mai napi min hőmérsékletet: '));
     const idojaras = await rl.question('Add meg a mai időjárást (pl. "napos", "felhős", "eső"): ');
 
     const nap = new Date().getDay();
