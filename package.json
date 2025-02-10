@@ -1,0 +1,11 @@
+{
+  "name": "idojaras-hornyaktibor",
+  "version": "1.0.0",
+  "description": "A Node.js project for weather information",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tibor Hornyak",
+  "license": "MIT"
+}
