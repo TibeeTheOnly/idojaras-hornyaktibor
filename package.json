@@ -8,5 +8,8 @@
     "start": "node src/index.js"
   },
   "author": "Tibor Hornyak",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
